@@ -14,4 +14,3 @@ exports.readTasksFromFile = () => {
     const data = fs.readFileSync(filePath);
     return JSON.parse(data)
 }
-//
